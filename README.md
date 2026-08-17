@@ -1,3 +1,3 @@
 # Aeter
 
-A Linux shell made with Quickshell
+A Linux Shell that is clean and usable for window manager user
