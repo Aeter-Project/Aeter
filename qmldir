@@ -1,0 +1,5 @@
+module Callista
+
+singleton Colors 1.0 theme/Colors.qml
+singleton Typography 1.0 theme/Typography.qml
+singleton Style 1.0 theme/Style.qml
