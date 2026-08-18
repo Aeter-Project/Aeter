@@ -10,7 +10,7 @@ import Quickshell
 import "modules"
 
 ShellRoot {
-  id: aeter
+  id: aetershell
 
   // Define
   Bar {}
