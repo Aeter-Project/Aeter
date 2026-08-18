@@ -1,12 +1,11 @@
-import "../theme"
+import qs.theme
 import QtQuick
 import Quickshell
 
 Scope {
-    id: aeter_bar
+    id: bar
     readonly property int height: 20
 
-    // Clock
     SystemClock {
         id: clock
         precision: SystemClock.Seconds
@@ -25,7 +24,7 @@ Scope {
                     right: true
                 }
 
-                implicitHeight: aeter_bar.height
+                implicitHeight: bar.height
                 color: Colors.background
 
                 

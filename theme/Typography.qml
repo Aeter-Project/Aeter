@@ -1,8 +1,7 @@
 pragma Singleton
 import QtQuick
-import Quickshell
 
-Singleton {
+QtObject {
     function _makeFont(family, size, weight) {
         return Qt.font({
             family: family,

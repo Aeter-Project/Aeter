@@ -1,8 +1,7 @@
 pragma Singleton
 import QtQuick
-import Quickshell
 
-Singleton {
+QtObject {
     // Gaps
     readonly property int gapSm: 8
     readonly property int gapMd: 12
