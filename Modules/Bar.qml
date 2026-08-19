@@ -1,4 +1,4 @@
-import qs.theme
+import qs.Theme
 import QtQuick
 import Quickshell
 

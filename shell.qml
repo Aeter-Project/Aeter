@@ -7,7 +7,7 @@
 //                                             
 
 import Quickshell
-import "modules"
+import qs.Modules
 
 ShellRoot {
   id: aetershell
