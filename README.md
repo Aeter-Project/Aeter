@@ -1,3 +1,3 @@
-# Aeter
+# AeterShell
 
-A Linux Shell that is clean and usable for window manager user
+A Linux desktop shell that is easy to use and customizable
