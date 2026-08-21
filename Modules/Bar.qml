@@ -1,15 +1,16 @@
-import qs.Theme
 import QtQuick
 import Quickshell
+import qs.Theme
+import qs.Services
 
 Scope {
     id: bar
     readonly property int height: 20
 
-    SystemClock {
-        id: clock
-        precision: SystemClock.Seconds
-    }
+    // SystemClock {
+    //     id: clock
+    //     precision: SystemClock.Seconds
+    // }
 
     Variants {
         model: Quickshell.screens
@@ -27,13 +28,11 @@ Scope {
                 implicitHeight: bar.height
                 color: Colors.background
 
-                
-
                 Text {
                     anchors.centerIn: parent
-                    text: Qt.formatTime(clock.date, "hh:mm")
+                    text: Clock.time
                     color: Colors.text
-                    font: Typography.sans(6, Font.Medium)
+                    font: Typography.sans(6)
                 }
             }
         }

@@ -5,12 +5,13 @@ import Quickshell
 
 Singleton {
     id: root
+    
+    property string time: {
+        Qt.formatTime(clock.date, "hh:mm")
+    }
+
     SystemClock {
         id: clock
         precision: SystemClock.Seconds
-    }
-
-    readonly property string time: {
-        Qt.formatDateTime(clock.date, "hh:mm:ss")
     }
 }
